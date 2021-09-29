@@ -14,7 +14,7 @@ public class SqAreaTest {
             Assert.assertEquals(expected, out, 0.01);
         }
 
-    @Test//1
+    @Test
     public void whenP1K1Square0Dot0625() {
         double expected = 0.0625;
         double p = 1;
@@ -23,7 +23,7 @@ public class SqAreaTest {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test//2
+    @Test
     public void whenP2K2Square0Dot2222() {
         double expected = 0.2222;
         double p = 2;
