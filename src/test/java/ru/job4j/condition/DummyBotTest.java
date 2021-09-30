@@ -14,7 +14,7 @@ public class DummyBotTest {
     }
 
     @Test
-    public void whenByeBot() {
+    public void whenByeBot()  {
         String in = "Пока.";
         String result = DummyBot.answer(in);
         String expected = "До скорой встречи.";
