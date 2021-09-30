@@ -17,7 +17,7 @@ public class Point1Test {
     }
 
     @Test
-    public void when00to00then0() {
+    public void when00to00then0()  {
         double expected = 0;
         int x1 = 0;
         int y1 = 0;
