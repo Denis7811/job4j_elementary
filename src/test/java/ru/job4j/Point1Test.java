@@ -16,7 +16,7 @@ public class Point1Test {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test//1
+    @Test
     public void when00to00then0() {
         double expected = 0;
         int x1 = 0;
@@ -27,7 +27,7 @@ public class Point1Test {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test//2
+    @Test
     public void when10to00then1() {
         double expected = 1;
         int x1 = 1;
@@ -38,7 +38,7 @@ public class Point1Test {
         Assert.assertEquals(expected, out, 0.01);
     }
 
-    @Test//3
+    @Test
     public void when01to01then0() {
         double expected = 0;
         int x1 = 0;
