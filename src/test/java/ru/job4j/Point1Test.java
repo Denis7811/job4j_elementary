@@ -3,7 +3,7 @@ package ru.job4j;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class Point1Test  {
+public class Point1Test {
 
     @Test
     public void when00to20then2() {
