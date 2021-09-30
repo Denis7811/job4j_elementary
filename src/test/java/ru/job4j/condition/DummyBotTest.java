@@ -3,7 +3,7 @@ package ru.job4j.condition;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class DummyBotTest {
+public class DummyBotTest  {
 
     @Test
     public void whenGreetBot() {
