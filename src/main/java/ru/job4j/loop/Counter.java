@@ -12,10 +12,10 @@ public class Counter {
 
     public static int sumByEven(int start, int finish) {
         int sum1 = 0;
-        int i;
-        for (i = start; i <= finish; i++) {
-            if ((i % 2) == 0) {
-                sum1 = sum1 + i;
+        int a;
+        for (a = start; a <= finish; a++) {
+            if ((a % 2) == 0) {
+                sum1 = sum1 + a;
             }
         }
         return sum1;
