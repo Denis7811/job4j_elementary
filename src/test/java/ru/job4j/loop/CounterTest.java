@@ -9,7 +9,7 @@ public class CounterTest {
     public void whenSumEvenNumbersFromOneToTenThenThirty() {
         int start = 1;
         int finish = 10;
-        int result = CounterEven.sumByEven(start, finish);
+        int result = Counter.sumByEven(start, finish);
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
@@ -18,7 +18,7 @@ public class CounterTest {
     public void whenSumEvenNumbersFromOneToForThenSix() {
         int start = 1;
         int finish = 4;
-        int result = CounterEven.sumByEven(start, finish);
+        int result = Counter.sumByEven(start, finish);
         int expected = 6;
         Assert.assertEquals(expected, result);
     }
