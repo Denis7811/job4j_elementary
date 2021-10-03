@@ -6,7 +6,7 @@ import org.junit.Test;
 public class SwitchWeekTest {
 
     @Test
-    public void OneMond() {
+    public void oneMond() {
         int day = 1;
         String result = SwitchWeek.nameOfDay(day);
         String expected = "Понедельник";
@@ -14,7 +14,7 @@ public class SwitchWeekTest {
         }
 
     @Test
-    public void Eigh() {
+    public void eigh() {
         int day = 8;
         String result = SwitchWeek.nameOfDay(day);
         String expected = "Ошибка";
