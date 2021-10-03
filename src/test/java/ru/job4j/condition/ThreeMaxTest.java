@@ -28,7 +28,7 @@ public class ThreeMaxTest {
     public void thirdMax() {
         int first = 1;
         int second = 5;
-        int third = 200;
+        int third = 300;
         int result = ThreeMax.max(first, second, third);
         int expected = 200;
         Assert.assertEquals(expected, result);
