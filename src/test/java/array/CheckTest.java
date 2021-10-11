@@ -31,4 +31,11 @@ public class CheckTest {
         boolean result = Check.mono(data);
         Assert.assertFalse(result);
     }
+
+    @Test
+    public void whenDataMonoBy3False1TrueThenFalse() {
+        boolean[] data = new boolean[] {false, true, false, false};
+        boolean result = Check.mono(data);
+        Assert.assertFalse(result);
+    }
 }
