@@ -3,9 +3,9 @@ package array;
 public class Check {
     public static boolean mono(boolean[] data) {
         boolean result = true;
-        for (boolean i : data) {
-            boolean standard = data[0];
-            if (standard != i) {
+        boolean standard = data[0];
+        for (int i = 1; i < data.length; i++) {
+                if (standard != data[i]) {
                 result = false;
                 break;
             }
