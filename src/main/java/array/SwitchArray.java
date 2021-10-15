@@ -24,7 +24,7 @@ public class SwitchArray {
         }
         System.out.println("swap");
         int[] numsSwap = new int[] {1, 2, 3, 4, 5, 6};
-        int[] rsl1 = swap(nums, 0, 1);
+        int[] rsl1 = swap(nums, 0, 2);
             for (int index : rsl) {
                 System.out.println(index);
         }
