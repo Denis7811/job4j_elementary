@@ -9,6 +9,13 @@ public class SwitchArray {
         return array;
     }
 
+    public static String[] swapString(String[] array, int source, int dest) {
+        String temp1 = array[source];
+        array[source] = array[dest];
+        array[dest] = temp1;
+        return array;
+    }
+
     public static int[] swapBorder(int[] array) {
         int temp = array[0];
         array[0] = array[array.length - 1];

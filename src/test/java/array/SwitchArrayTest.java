@@ -15,6 +15,16 @@ public class SwitchArrayTest {
     }
 
     @Test
+    public void whenStringSwap0to2() {
+        String[] input = {"I", null, "wanna"};
+        int source = 0;
+        int dest = 1;
+        String[] result = SwitchArray.swapString(input, source, dest);
+        String[] expected = {null, "I", "wanna"};
+        Assert.assertArrayEquals(expected, result);
+    }
+
+    @Test
     public void whenSwap0to2() {
         int[] input = {1, 2, 3, 4};
         int source = 0;
