@@ -13,6 +13,7 @@ public class Defragment {
                     }
                 }
             }
-        }        return array;
+        }
+        return array;
     }
 }
