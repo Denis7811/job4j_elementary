@@ -1,14 +1,13 @@
 package array;
 
-public class Defragment {
+public class Defragment1 {
     public static String[] compress(String[] array) {
         for (int index = 0; index < array.length; index++) {
             if (array[index] == null) {
-
                 for (int i = index + 1; i < array.length; i++) {
                     if (array[i] != null) {
-
-                        SwitchArray.swapString(array, index, i);
+                        array[index] = array[i];
+                        array[i] = null;
                         break;
                     }
                 }
@@ -16,8 +15,9 @@ public class Defragment {
         }
         return array;
     }
+
     public static void main(String[] args) {
-        String[] input = {null, null, "wanna", null, "be", null, "compressed"};
+        String[] input = {"I", null, "wanna", null, "be", null, "compressed"};
         String[] compressed = compress(input);
         System.out.println();
         for (int index = 0; index < compressed.length; index++) {
@@ -25,3 +25,4 @@ public class Defragment {
         }
     }
 }
+

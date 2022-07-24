@@ -35,5 +35,11 @@ public class SwitchArray {
             for (int index : rsl) {
                 System.out.println(index);
         }
+        System.out.println("swapString");
+        String[] arrayString = new String[] {"nole", "one", "two", "three"};
+        String[]  arrayString1= swapString(arrayString,1,3);
+        for (String index : arrayString1) {
+            System.out.println(index);
+        }
     }
 }

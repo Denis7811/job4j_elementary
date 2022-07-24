@@ -7,7 +7,11 @@ public class Point1 {
     }
 
     public static void main(String[] args) {
-        double result = Point1.distance(0, 1, 0, 1);
-        System.out.println("result (0, 0) to (2, 0) " + result);
+        double result = Point1.distance(1, 1, 0, 0);
+        System.out.println("result  " + result);
+        int first=1;
+        int second = 2;
+        boolean result1=first!=second;
+        System.out.println("сравнение "+result1);
     }
 }
